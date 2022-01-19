@@ -40,7 +40,7 @@ from kivy.uix.label import Label
 from resource_path import resource_path
 
 # CONSTANTS
-REPO_URL = 'https://github.com/XtremeWare/XtremeUpdater-Distribution'
+REPO_URL = 'https://github.com/krystofer47/XtremeUpdate/XtremeUpdater-Distribution'
 USR = os.path.expanduser('~')
 LOCAL_APPDATA = os.getenv('LOCALAPPDATA')
 APPDATA = os.getenv('APPDATA')
