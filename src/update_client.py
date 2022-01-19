@@ -49,7 +49,8 @@ class UpdateClient:
             considered_status[key] = flag
 
         Logger.info(f'UpdateClient: Considered status: {considered_status}')
-        return considered_status
+        ####### changed from return considered_status
+        return {}
 
     def download_util(self, hook=None):
         os.makedirs(os.path.split(self._util_path)[0], exist_ok=True)
